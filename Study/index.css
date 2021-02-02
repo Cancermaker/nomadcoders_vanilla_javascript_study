@@ -9,8 +9,30 @@ body {
   }
   .clicked {
     color: #ffffff;
+   
   }
-  
+  .js-clock{
+    position: relative;
+    left: 40%;
+    font-size: 3rem;
+    color: #000000;
+
+  }
+  .js-weather{
+    position: relative;
+    left: 42%;
+    font-size: 3rem;
+    color: rgba(39, 36, 33);
+  }
+  .js-greetings{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .sad{
+    position: relative;
+    left: 42%;
+    color: rgb(5, 5, 5);
+  }
   .form,
   .greetings {
     display: none;
