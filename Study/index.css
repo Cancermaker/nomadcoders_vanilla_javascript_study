@@ -1,3 +1,7 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
 body {
     background-color: #ecf0f1;
   }
@@ -16,7 +20,7 @@ body {
     position: relative;
     left: 40%;
     font-size: 3rem;
-    color: #000000;
+    color: #bdbdbd;
 
   }
   .js-weather{
@@ -24,7 +28,7 @@ body {
 text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    color: rgb(43, 43, 43);
+    color: rgb(194, 194, 194);
   }
   .js-greetings{
     font-weight: bold;
@@ -33,7 +37,7 @@ text-align: center;
   .sad{
     position: relative;
 text-align: center;
-color: rgb(5, 5, 5);
+color: rgb(207, 207, 207);
   }
   .form,
   .greetings {
@@ -63,3 +67,4 @@ color: rgb(5, 5, 5);
     z-index: -1;
     animation: fadeIn 0.5s linear;
   }
+ 
