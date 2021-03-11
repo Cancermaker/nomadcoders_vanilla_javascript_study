@@ -6,6 +6,7 @@ body {
   }
   body {
     color: #ffffff;
+    overflow: hidden;
   }
   .clicked {
     color: #ffffff;
@@ -20,9 +21,10 @@ body {
   }
   .js-weather{
     position: relative;
-    left: 42%;
+text-align: center;
     font-size: 3rem;
-    color: rgba(39, 36, 33);
+    font-weight: bold;
+    color: rgb(43, 43, 43);
   }
   .js-greetings{
     font-weight: bold;
@@ -30,14 +32,16 @@ body {
   }
   .sad{
     position: relative;
-    left: 42%;
-    color: rgb(5, 5, 5);
+text-align: center;
+color: rgb(5, 5, 5);
   }
   .form,
   .greetings {
     display: none;
   }
-  
+  .ds{
+    text-align: center;
+  }
   .showing {
     display: block;
   }
